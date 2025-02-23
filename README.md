@@ -16,7 +16,7 @@ Subsequently, in the top left of the Home screen, the following player informati
 
 On the Home screen, the player has the option to choose whether to start a game with one, two, or three players by clicking on the corresponding card image.
 
-The AI players follow the same rules as the dealer: they continue to draw cards until they reach a total of 17 points. 
+The artificial players follow the same rules as the dealer: they continue to draw cards until they reach a total of 17 points. 
 
 Player 2 and Player 3 are shown on the Home screen, each with a randomly selected avatar, different from the one chosen by the player.
 Their number of won, lost, and drawn games is also shown.
@@ -84,7 +84,7 @@ Streams were also used to update the positions of the cards.
 I also used streams in other cases to make the code more compact and efficient.
 
 ## AudioManager
- Through the AudioManager library, I inserted the playback of 4 .wav files in different situations:
+ Through the **AudioManager** library, I inserted the playback of 4 .wav files in different situations:
 * [card.wav](src/BlackJack/resources/audio/card.wav)
 * [click.wav](src/BlackJack/resources/audio/click.wav)
 * [click2.wav](src/BlackJack/resources/audio/click2.wav)
