@@ -83,21 +83,32 @@ The Model extends the Observable class, and every time its state changes, it sen
 I adopted **Java Swing** for the GUI.
 The structure of the interface is centered on a **JFrame**, which represents the main window of the application. I have created several classes that extend **JPanel** to represent the different screens. These are contained in:
 
-Start.java: Start screen
+* [Start.java](src/BlackJack/views/Start.java): Start screen
 
-Home.java: Home screen
+* [Home.java](src/BlackJack/views/Home.java): Home screen
 
-Bet.java: Betting phase
+* [Bet.java](src/BlackJack/views/Bet.java): Betting phase
 
-OnePlayer.java: Game with no artificial players
+* [OnePlayer.java](src/BlackJack/views/OnePlayer.java): Game with no artificial players
 
-TwoPlayers.java: Game with one artificial player
+* [TwoPlayers.java](src/BlackJack/views/TwoPlayers.java): Game with one artificial player
 
-ThreePlayers.java: Game with two artificial players
+* [ThreePlayers.java](src/BlackJack/views/ThreePlayers.java): Game with two artificial players
 
 In these, I used Swing elements such as **JButton**, **JLabel**, **JTextField**, etc.
 I also used layout managers such as **BorderLayout**, **GridLayout**, and **FlowLayout** for the placement of elements.
 User interactions with the interface, such as clicking buttons or entering data in text fields, are handled via listeners that capture the events and trigger the corresponding code to perform the requested operations.
+
+
+<div style="display: flex; flex-wrap: wrap; ">
+    <img width="380" alt="Screenshot 2025-02-23 alle 23 52 37" src="https://github.com/user-attachments/assets/8dfe06c6-e9f7-4147-bb0d-024e662cdc8f" />
+    <img width="380" alt="Screenshot 2025-02-23 alle 23 52 25" src="https://github.com/user-attachments/assets/cb9fc9b5-c44e-493e-a55b-9c56a422da4c" />
+    <img width="380" alt="Screenshot 2025-02-23 alle 23 52 08" src="https://github.com/user-attachments/assets/8a5b7467-955a-4a99-a17e-b933ac2cec18" />
+    <img width="380" alt="Screenshot 2025-02-23 alle 23 51 51" src="https://github.com/user-attachments/assets/cc179368-61f9-4112-9a83-9fc757c04d71" />
+    <img width="380" alt="Screenshot 2025-02-23 alle 23 51 23" src="https://github.com/user-attachments/assets/a169a1c6-7502-4c55-8059-18a7a30c3d12" />
+   <img width="380" alt="Screenshot 2025-02-24 alle 00 11 16" src="https://github.com/user-attachments/assets/98193353-74e5-4cd8-9b4c-c812fc3f7798" />
+
+</div>
 
 ## Stream
 
