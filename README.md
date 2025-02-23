@@ -9,7 +9,7 @@ Javadoc documentation is available in the [doc](doc) folder. To consult it, open
 
 ### Class Diagram
 
-[UML.png](UML.png)
+[UML.pdf](UML.pdf)
 
 ## Design Decisions
 
