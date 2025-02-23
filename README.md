@@ -1,8 +1,15 @@
+<br>
 
 <img src="src/BlackJack/resources/images/logo.png" alt="Image 1" width="50%" style="display:inline-block; vertical-align:middle;"/>
 <br>
-Blackjack game in Java.
-mettere qua dove sono le cose
+
+### Documentation
+
+Javadoc documentation is available in the [doc](doc) folder. To consult it, open [index.html](doc/index.html) in a browser.  
+
+### Class Diagram
+
+[UML.png](UML.png)
 
 ## Design Decisions
 
