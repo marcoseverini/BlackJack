@@ -7,25 +7,46 @@ mettere qua dove sono le cose
 
 ### User profile management
 
-At the start of the game, the player is given the option to choose an avatar from 4 available options and enter a nickname.
-If the field is left empty or a text longer than 10 characters is entered, a pop-up appears signaling the invalidity of the nickname.
+At the start of the game, the player is given the option to choose an avatar from 4 available options and enter a nickname.  
 
+<div>
+   <img src="src/BlackJack/resources/images/avatars/avatar1.png" alt="Image 1" width="5%" style="display:inline-block; vertical-align:middle;"/>
+   <img src="src/BlackJack/resources/images/avatars/avatar2.png" alt="Image 2" width="5%" style="display:inline-block; vertical-align:middle;"/>
+   <img src="src/BlackJack/resources/images/avatars/avatar3.png" alt="Image 2" width="5%" style="display:inline-block; vertical-align:middle;"/>
+   <img src="src/BlackJack/resources/images/avatars/avatar4.png" alt="Image 2" width="5%" style="display:inline-block; vertical-align:middle;"/>
+</div>  
+<br>
+If the field is left empty or a text longer than 10 characters is entered, a pop-up appears signaling the invalidity of the nickname.
 Subsequently, in the top left of the Home screen, the following player information will be visible: selected avatar, nickname, number of games won, lost, and drawn.
+<br><br>
+<img width="14.6%" alt="immagine" src="https://github.com/user-attachments/assets/fba9a1cc-aef0-4ba2-8562-6afba3a686fd" />
+<img width="28%" alt="immagine" src="https://github.com/user-attachments/assets/bb70ebc1-2566-4153-830f-1ee36c689682" />
 
 ### Management of a complete game against 1/2/3 artificial players.
 
-On the Home screen, the player has the option to choose whether to start a game with one, two, or three players by clicking on the corresponding card image.
+On the Home screen, the player has the option to choose whether to start a game with one, two, or three players by clicking on the corresponding card image.  
+
+<img width="30%" alt="immagine" src="https://github.com/user-attachments/assets/f6be8e1f-421a-424a-b730-96832e137120" />
+<br><br>
 
 The artificial players follow the same rules as the dealer: they continue to draw cards until they reach a total of 17 points. 
 
 Player 2 and Player 3 are shown on the Home screen, each with a randomly selected avatar, different from the one chosen by the player.
 Their number of won, lost, and drawn games is also shown.
 
+<img width="30%" alt="immagine" src="https://github.com/user-attachments/assets/59fffc17-7fa9-4c5e-890b-2c3bf10abf62" />
+
+
 During the game, the player has 2 available buttons, to draw a new card or to pass the turn.
 `hit` and `stay` buttons, respectively.
 By selecting `stay`, the dealer flips the hidden card, and along with the other artificial players, shows the other drawn cards.
 The `hit` and `stay` buttons become unselectable, and simultaneously, a message is shown at the center of the screen indicating the outcome of the game.
 This is accompanied by a `home` button that allows the player to return to the Home screen.
+
+<img width="24.6%" alt="immagine" src="https://github.com/user-attachments/assets/35f6bfda-d247-4235-91e9-2351927dbe5f" />
+<br>
+<img width="249" alt="immagine" src="https://github.com/user-attachments/assets/3f25c49b-2b69-4eea-96a6-bdc185e6f0f0" />
+
 
 ### Betting System
 
@@ -35,6 +56,8 @@ The betting system automatically starts before the game begins.
 The selected chips are placed on the board’s center through animation, stacked one on top of the other.
 In the top left, the current balance and the bet amount are shown.
 If a chip is selected that exceeds the available balance, a pop-up warning appears indicating the impossibility of making that bet.
+<br><br>
+<img width="26%" alt="immagine" src="https://github.com/user-attachments/assets/2ef6e7c7-1e0f-4633-8020-06ada36c8f9d" />
 
 
 ## Design Patterns
