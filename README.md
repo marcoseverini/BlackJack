@@ -1,5 +1,6 @@
-# BlackJack
 
+<img src="src/BlackJack/resources/images/logo.png" alt="Image 1" width="50%" style="display:inline-block; vertical-align:middle;"/>
+<br>
 Blackjack game in Java.
 mettere qua dove sono le cose
 
