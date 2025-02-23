@@ -139,5 +139,9 @@ The animation of the cards follows a similar mechanism to the chips, with the ad
 This means that as the distance decreases, the speed with which they move decreases, creating a smooth movement effect.
 
 
+<img src="https://github.com/user-attachments/assets/96ab65e6-bbad-430a-8dc4-5600628580e7" width="300" />
+<br>
+<img src="https://github.com/user-attachments/assets/c0a5dcd0-b197-4b8a-816b-7eca93159b59" width="300" />
+
 
 
